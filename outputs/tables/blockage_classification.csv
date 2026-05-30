@@ -15,14 +15,14 @@ D_center,96.5,3.4,10.57,Severe
 D_center,96.5,4.3,10.57,Severe
 D_center,96.5,6.0,10.57,Severe
 D_center,96.5,9.9,10.57,Severe
-D_center,96.5,14.6,10.57,Clear
-D_center,96.5,19.5,10.57,Clear
+D_center,96.5,14.6,10.57,No Significant
+D_center,96.5,19.5,10.57,No Significant
 D_max,154.0,0.5,6.67,Severe
 D_max,154.0,1.5,6.67,Severe
 D_max,154.0,2.4,6.67,Severe
 D_max,154.0,3.4,6.67,Severe
 D_max,154.0,4.3,6.67,Severe
 D_max,154.0,6.0,6.67,Severe
-D_max,154.0,9.9,6.67,Clear
-D_max,154.0,14.6,6.67,Clear
-D_max,154.0,19.5,6.67,Clear
+D_max,154.0,9.9,6.67,No Significant
+D_max,154.0,14.6,6.67,No Significant
+D_max,154.0,19.5,6.67,No Significant
