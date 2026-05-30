@@ -4,7 +4,7 @@ Analisis geometri awal potensi beam blockage oleh bangunan tinggi terhadap radar
 
 ## Ringkasan
 
-Notebook ini menghitung sudut halangan (obstruction angle) bangunan terhadap radar, membandingkannya dengan amplop beam pada 9 elevasi scan VCP-style, dan mengklasifikasikan potensi blockage menjadi **Clear**, **Partial**, atau **Severe**.
+Notebook ini menghitung sudut halangan (obstruction angle) bangunan terhadap radar, membandingkannya dengan amplop beam pada 9 elevasi scan VCP-style, dan mengklasifikasikan potensi blockage menjadi **No Significant Blockage**, **Potential Partial Blockage**, atau **Potential Severe Blockage**.
 
 **Bukan** DEM-based partial beam blockage, bukan validasi operasional.
 
@@ -63,9 +63,9 @@ jupyter notebook preliminary_geometry_blockage_notebook.ipynb
 1. **Obstruction angle:** α = arctan((H_building − H_radar) / distance)
 2. **Beam envelope:** θ ± β/2
 3. **Klasifikasi:**
-   - α < θ_lower → Clear
-   - θ_lower ≤ α ≤ θ_upper → Partial
-   - α > θ_upper → Severe
+   - α < θ_lower → No Significant Blockage
+   - θ_lower ≤ α ≤ θ_upper → Potential Partial Blockage
+   - α > θ_upper → Potential Severe Blockage
 
 ## Batasan
 
